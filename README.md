@@ -79,7 +79,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./img/Screenshot.png)
+<img src="./img/Screenshot.png">
 
 users should be able to create and modify recipes with ingredients, cooking time, and a difficulty
 parameter that would be automatically calculated by the app. Your users should also be able to search for
@@ -203,7 +203,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Brad Richardson - [@BradRic72865779](https://twitter.com/@BradRic72865779) - carbon42@hotmail.com.com
+Brad Richardson - [@BradRic72865779](https://twitter.com/@BradRic72865779) - carbon42@hotmail.com
 
 Project Link: [https://github.com/Carbon-42/python-recipe-app](https://github.com/Carbon-42/python-recipe-app)
 
