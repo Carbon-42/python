@@ -51,13 +51,13 @@ class Recipe():
 
     def update_all_ingredients(self, ingredient):
         for ingredient in self.ingredients:
-            Recipe.all_ingredients.append(ingredient)
+            if ingredient not in self.ingredients:
+                Recipe.all_ingredients.append(ingredient)
 
     def __str__(self):
         return f'\nRecipe name: {self.name}\nIngredients: {", ".join(self.ingredients)}\nCooking Time: {self.cooking_time} minutes\nDifficulty: {self.difficulty}'
 
     def recipe_search(data, search_term):
-        data = recipes_list
         for recipe in data:
             if recipe .search_ingredient(search_term):
                 print(recipe)
