@@ -92,13 +92,12 @@ def search_recipe(conn, cursor):
     all_ingredients = list(dict.fromkeys(all_ingredients))
 
     all_ingredients_list = list(enumerate(all_ingredients))
-
+    print(all_ingredients_list)
     print('\nAll Ingredients List')
     print('--------------------')
 
     for index, tup in enumerate(all_ingredients_list):
         print(str(tup[0]+1) + '. ' + tup[1])
-
     try:
         index = int(input('Select a number: ')) - 1
         ingredient_searched = all_ingredients_list[index][1]
